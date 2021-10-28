@@ -1,0 +1,150 @@
+body {
+    background-color: #0f6e9b;
+    /* background-image: url("img/lua.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll; */
+    /* background-position: 2cm 2cm; */
+    /* background-position: 5% 5%; */
+}
+
+h1 {
+    color: #13c46b !important;
+    text-align: center;
+}
+
+p {
+    text-indent: 25px;;
+    color: #13c46b;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.minhaclasse {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#meuparagrafo {
+    text-align: justify;
+    color: white;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight:bold;
+    font-size: 15px;
+    /* font-size: 12pt; */
+    /* font-size: large; */
+}
+
+#textosub
+{
+    text-decoration: underline;
+}
+
+#textosup
+{
+    text-decoration: overline;
+}
+
+#textoriscado
+{
+    text-decoration: line-through;
+}
+
+#textospace
+{
+    letter-spacing: 3px;
+}
+
+#textoupper
+{
+    text-transform: uppercase;
+}
+
+#textolower
+{
+    text-transform: lowercase;
+}
+
+#links{
+    text-align: center;
+}
+
+a:hover
+{
+    color: blueviolet;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-style: italic;
+    text-transform: uppercase;
+    background-color: #13c46b;
+}
+
+#minhadiv
+{
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
+    border-color: crimson;
+    border-width: thick;
+    border-style: dashed;
+    background-color: azure;
+    /* width: 500px;
+    height: 200px; */
+    width: 50%;
+    z-index: 5;
+}
+
+#p1
+{
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border-color: crimson;
+    border-width: thick;
+    border-style: dashed;
+    background-color: azure;
+    float: left;
+    width: 30%;
+    z-index: 5;
+}
+
+#p2
+{
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border-color: crimson;
+    border-width: thick;
+    border-style: dashed;
+    background-color: azure;
+    float: left;
+    width: 30%;
+    z-index: 5;
+}
+
+#p3
+{
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border-color: crimson;
+    border-width: thick;
+    border-style: dashed;
+    background-color: azure;
+    float: left;
+    width: 30%;
+    z-index: 5;
+}
+
+#p4
+{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: black;
+}
+
+#p5
+{
+    top:100px;
+    left: 100px;
+    position: relative;
+    color: yellow;
+    z-index: -1;
+}
